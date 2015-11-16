@@ -1,0 +1,38 @@
+From ee8771d552ddd9a20e1deecabc30ea398d5ae729 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Lionel=20Gu=C3=A9rin?= <lionelguerin.mail@gmail.com>
+Date: Mon, 16 Nov 2015 12:03:17 +0100
+Subject: [PATCH] update minor version
+
+---
+ src/application.bat | 2 +-
+ test/test_app.bat   | 7 ++++++-
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+
+diff --git a/src/application.bat b/src/application.bat
+index e108d7e..81d7068 100644
+--- a/src/application.bat
++++ b/src/application.bat
+@@ -1,5 +1,5 @@
+ ### application.bat - 2015 - Lionel Guérin ###
+-version = "2"
++version = "1.2.1"
+ build_hour = "11H00"
+ 
+ echo "Build ${build_hour}"
+diff --git a/test/test_app.bat b/test/test_app.bat
+index 951f1da..ac0c45a 100644
+--- a/test/test_app.bat
++++ b/test/test_app.bat
+@@ -1 +1,6 @@
+-### application.bat - 2015 - Lionel Guérin ###
+\ No newline at end of file
++### application.bat - 2015 - Lionel Guérin ###
++version = "1.2.1"
++build_hour = "11H00"
++
++echo "Build ${build_hour}"
++echo "version ${version}"
+\ No newline at end of file
+-- 
+1.9.5.msysgit.1
+
